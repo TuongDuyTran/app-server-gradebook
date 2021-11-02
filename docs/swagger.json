@@ -1,0 +1,20 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "{ROUTENAME} Integration Open API Document",
+        "description": "A simple document",
+        "version": "1.0.0",
+        "contact": {
+            "name": "Grade Book Application",
+            "email": "duyithcmus2016@gmail.com"
+        }
+    },
+    "host": "",
+    "basePath": "/api",
+    "schemes": [
+        "https",
+        "http"
+    ],
+    "tags": [],
+    "paths": {}
+}

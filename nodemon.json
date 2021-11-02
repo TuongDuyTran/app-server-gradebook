@@ -1,0 +1,6 @@
+{
+  "events": {
+    "start": "node code-tools/docs build"
+  },
+  "ignore": ["docs/*"]
+}

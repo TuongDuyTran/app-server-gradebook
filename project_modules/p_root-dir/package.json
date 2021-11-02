@@ -1,0 +1,6 @@
+{
+  "name" : "p_root-dir",
+  "description": "get root dir",
+  "version": "0.0.1",
+  "main" : "./index.js"
+}

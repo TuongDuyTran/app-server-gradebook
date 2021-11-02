@@ -1,0 +1,39 @@
+{
+    "name": "grade_book",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "set NODE_ENV=dev-local&& nodemon app.js",
+        "start": "set NODE_ENV=production&& node app",
+        "dbo": "node code-tools/dbo.js",
+        "docs": "node code-tools/docs.js"
+    },
+    "type": "module",
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "body-parser": "1.18.3",
+        "cookie-parser": "^1.4.5",
+        "dbo": "file:project_modules/dbo",
+        "dotenv": "^8.2.0",
+        "ejs": "^3.1.6",
+        "express": "~4.16.1",
+        "form-data": "^4.0.0",
+        "log4js": "^6.3.0",
+        "multer": "^1.4.3",
+        "mustlog": "file:project_modules/mustlog",
+        "mysql2": "^2.2.5",
+        "node-schedule": "^2.0.0",
+        "p_exception": "file:project_modules/p_exception",
+        "sequelize": "^6.6.5",
+        "sequelize-cli": "^6.2.0",
+        "swagger-jsdoc": "^6.1.0",
+        "swagger-ui-express": "^4.1.6"
+    },
+    "devDependencies": {
+        "morgan": "~1.9.1",
+        "nodemon": "^2.0.7"
+    }
+}

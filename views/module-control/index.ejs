@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- CSS (load bootstrap from a CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 50px;
+        }
+
+        .isDisabled {
+            color: currentColor;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body class="container">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/">Module Control</a>
+        </nav>
+    </header>
+    <main>
+        <div class="jumbotron">
+            <h1>Migrate Database</h1>
+            <button type="button" class="btn btn-danger">
+                <a href="/module-control/force" class="isDisabled">Force</a>
+            </button>
+            <button type="button" class="btn btn-warning">
+                <a href="/module-control/update" class="isDisabled">Update</a>
+            </button>
+            <button type="button" class="btn btn-primary">
+                <a href="/module-control/seed" class="isDisabled">Seed</a>
+            </button>
+            <button type="button" class="btn btn-primary">
+                <a href="/module-control/drop" class="isDisabled">Drop</a>
+            </button>
+        </div>
+    </main>
+
+    <footer>
+        <p class="text-center text-muted">&copy; Copyright 2021 Integration System</p>
+    </footer>
+</body>
+
+</script>
+
+</html>

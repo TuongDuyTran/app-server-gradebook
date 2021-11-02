@@ -1,0 +1,6 @@
+{
+  "name" : "dbo",
+  "description": "Database Object",
+  "version": "0.0.1",
+  "main" : "./index.js"
+}

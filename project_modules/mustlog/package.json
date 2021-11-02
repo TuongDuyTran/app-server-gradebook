@@ -1,0 +1,6 @@
+{
+  "name" : "mustlog",
+  "description": "Must Log",
+  "version": "0.0.1",
+  "main" : "./index.js"
+}
